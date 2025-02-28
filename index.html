@@ -3,110 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>African WordPress Alternative</title>
+    <meta name="description" content="WebPress.Africa - Affordable and Scalable Website Builder for African Businesses">
+    <meta name="keywords" content="website builder, SEO, Africa, business, eCommerce">
+    <meta name="author" content="WebPress.Africa Team">
+    <title>WebPress.Africa - Build Your Business Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <style>
-        :root {
-            --primary-color: #2ecc71;
-            --secondary-color: #f39c12;
-            --bg-color: #f4f4f4;
-            --text-color: #333;
-            --white: #fff;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: var(--bg-color);
-            color: var(--text-color);
-            text-align: center;
-        }
-        header {
-            background: var(--primary-color);
-            color: var(--white);
-            padding: 20px;
-        }
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
-        .features, .pricing, .categories {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .card {
-            background: var(--white);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            width: 250px;
-        }
-        .card i {
-            font-size: 40px;
-            margin-bottom: 10px;
-            color: var(--secondary-color);
-        }
-        .pricing-tier {
-            background: var(--white);
-            padding: 20px;
-            border-radius: 8px;
-            width: 200px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background: var(--text-color);
-            color: var(--white);
-            padding: 20px;
-            margin-top: 20px;
-        }
-        .social-icons a {
-            color: var(--white);
-            margin: 0 10px;
-            font-size: 20px;
-        }
+        body { font-family: 'Montserrat', sans-serif; margin: 0; padding: 0; text-align: center; }
+        .container { width: 80%; margin: auto; }
+        nav { background: #222; padding: 15px; color: white; display: flex; justify-content: space-between; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; }
+        .hero { padding: 50px; background: #ff9800; color: white; }
+        .features, .pricing, .achievements, .team, .partnership { padding: 50px 0; }
+        .circle { display: inline-block; width: 100px; height: 100px; border-radius: 50%; background: #4caf50; color: white; display: flex; align-items: center; justify-content: center; margin: 10px; font-size: 20px; }
+        .pricing-table { display: flex; justify-content: center; flex-wrap: wrap; }
+        .pricing-card { border: 1px solid #ddd; padding: 20px; margin: 10px; width: 250px; }
+        .cta { background: #2196f3; padding: 20px; color: white; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Build Your Website Smarter, Cheaper, and Faster</h1>
-    </header>
-    <div class="container">
-        <h2>Why Choose Us?</h2>
-        <div class="features">
-            <div class="card"><i class="fas fa-rocket"></i><p>SEO & AEO Optimized</p></div>
-            <div class="card"><i class="fas fa-edit"></i><p>Drag & Drop Builder</p></div>
-            <div class="card"><i class="fas fa-dollar-sign"></i><p>Cheaper Than WordPress</p></div>
-            <div class="card"><i class="fas fa-server"></i><p>Scalable & Secure</p></div>
+    <nav>
+        <div>WebPress.Africa</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#categories">Categories</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
         </div>
+    </nav>
+    <section class="hero">
+        <h1>Build Your Business Website Today</h1>
+        <p>Did you know that 99% of African businesses don’t have a website?</p>
+        <p>The cost of a custom website can be prohibitive, and existing platforms are too expensive.</p>
+        <p>That’s why we created WebPress.Africa - a scalable, affordable solution just for you.</p>
+    </section>
+    <section class="features">
+        <h2>Why Choose WebPress.Africa?</h2>
+        <p>SEO & AEO Optimized | Drag & Drop Builder | Affordable Pricing | Scalable & Secure | Customizable Templates</p>
+    </section>
+    <section class="achievements">
+        <h2>Our Impact</h2>
+        <div class="circle">556 Early Adopters</div>
+        <div class="circle">4,455 Waitlist</div>
+        <div class="circle">90,884 Users</div>
+    </section>
+    <section class="pricing" id="pricing">
         <h2>Pricing Plans</h2>
-        <div class="pricing">
-            <div class="pricing-tier">Free - 500MB Bandwidth</div>
-            <div class="pricing-tier">Basic - 1GB Bandwidth</div>
-            <div class="pricing-tier">Pro - 5GB Bandwidth</div>
-            <div class="pricing-tier">Business - 10GB Bandwidth</div>
-            <div class="pricing-tier">Enterprise - Unlimited</div>
+        <div class="pricing-table">
+            <div class="pricing-card"> <h3>Free</h3> <p>$2.99/month</p> </div>
+            <div class="pricing-card"> <h3>Basic</h3> <p>$5.99/month</p> </div>
+            <div class="pricing-card"> <h3>Pro</h3> <p>$9.99/month</p> </div>
+            <div class="pricing-card"> <h3>Business</h3> <p>$19.99/month</p> </div>
+            <div class="pricing-card"> <h3>Enterprise</h3> <p>$39.99/month</p> </div>
         </div>
-        <h2>Categories</h2>
-        <div class="categories">
-            <div class="card"><i class="material-icons">store</i><p>eCommerce</p></div>
-            <div class="card"><i class="material-icons">business</i><p>Professional Services</p></div>
-            <div class="card"><i class="material-icons">local_shipping</i><p>Courier Services</p></div>
-            <div class="card"><i class="material-icons">hotel</i><p>Hotels</p></div>
-            <div class="card"><i class="material-icons">school</i><p>Schools</p></div>
-            <div class="card"><i class="material-icons">local_hospital</i><p>Hospitals</p></div>
-            <div class="card"><i class="material-icons">church</i><p>Churches</p></div>
-        </div>
-    </div>
+    </section>
+    <section class="team" id="team">
+        <h2>Meet the Team</h2>
+        <p>We are dedicated to making website building simple and affordable.</p>
+        <p>Mainadev - 0729301689</p>
+    </section>
+    <section class="partnership" id="contact">
+        <h2>Partner with Us</h2>
+        <p>Join us in revolutionizing the African digital space.</p>
+        <p>We are open to partnerships, investors, and collaborations.</p>
+        <button>Download App</button>
+        <button>Book a Demo</button>
+    </section>
     <footer>
-        <p>&copy; 2025 African Web Builder</p>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
+        <p>&copy; 2025 WebPress.Africa. All rights reserved.</p>
     </footer>
 </body>
 </html>
